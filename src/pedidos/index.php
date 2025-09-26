@@ -22,10 +22,10 @@
         <?php
         // Array de comidas con nombre, precio y ruta de imagen
         $comidas = [
-            "hamburguesa" => ["Hamburguesa vegetariana", 6.95, "img/hamburguesa.jpg"],
-            "pasta" => ["Pasta al pesto", 8.50, "img/pastapesto.jpg"],
-            "pizza" => ["Pizza caprese", 7.90, "img/pizzacaprese.jpg"],
-            "quinoa" => ["Quinoa con verdura", 9.20, "img/quinoa.jpg"]
+            "hamburguesa" => ["Hamburguesa vegetariana", 6.95, "../../img/hamburguesa.jpg"],
+            "pasta" => ["Pasta al pesto", 8.50, "../../img/pastapesto.jpg"],
+            "pizza" => ["Pizza caprese", 7.90, "../../img/pizzacaprese.jpg"],
+            "quinoa" => ["Quinoa con verdura", 9.20, "../../img/quinoa.jpg"]
         ];
 
         // Recorrer cada comida y mostrarla como una tarjeta
@@ -45,9 +45,9 @@
         <?php
         // Array de bebidas con nombre, precio y ruta de imagen
         $bebidas = [
-            "agua" => ["Agua", 1.20, "img/agua.jpg"],
-            "cervezas" => ["Cerveza", 1.80, "img/cerveza.jpg"],
-            "refrescos" => ["Refresco", 1.80, "img/refresco.jpg"]
+            "agua" => ["Agua", 1.20, "../../img/agua.jpg"],
+            "cervezas" => ["Cerveza", 1.80, "../../img/cerveza.jpg"],
+            "refrescos" => ["Refresco", 1.80, "../../img/refresco.jpg"]
         ];
 
         // Recorrer cada bebida y mostrarla como una tarjeta
