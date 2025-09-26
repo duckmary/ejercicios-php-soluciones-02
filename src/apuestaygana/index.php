@@ -13,9 +13,9 @@ if (isset($_POST['iniciar'])) {
 if (isset($_POST['apostar']) && isset($_SESSION['dinero'])) {
     $dinero = $_SESSION['dinero'];
     $opciones = [
-        "pierde" => ["img/pierde.jpg", 0, "¡Oh no! Has perdido todo tu dinero."],
-        "mitad" => ["img/mitad.jpg", 0.5, "Has perdido la mitad de tu dinero."],
-        "gana" => ["img/gana.jpg", 2, "¡Suerte! Has duplicado tu dinero."]
+        "pierde" => ["../../img/pierde.jpg", 0, "¡Oh no! Has perdido todo tu dinero."],
+        "mitad" => ["../../img/mitad.jpg", 0.5, "Has perdido la mitad de tu dinero."],
+        "gana" => ["../../img/gana.jpg", 2, "¡Suerte! Has duplicado tu dinero."]
     ];
 
    [$imagen, $factor, $mensaje] = $opciones[array_rand($opciones)];
